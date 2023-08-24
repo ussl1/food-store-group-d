@@ -1,4 +1,5 @@
 import CategoryComponent from "../CategoryComponent/CategoryComponent";
+import Slider from "./Slider";
 
 export default function Herohome() {
   return (
@@ -6,7 +7,9 @@ export default function Herohome() {
       <section className=" md:block lg:block my-8">
         <CategoryComponent />
       </section>
-      <section className="lg:col-start-2 lg:col-span-4 my-8"></section>
+      <section className="lg:col-start-2 lg:col-span-4 my-8">
+        <Slider />
+      </section>
     </section>
   );
 }
