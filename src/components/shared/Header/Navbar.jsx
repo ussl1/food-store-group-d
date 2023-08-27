@@ -1,8 +1,10 @@
 import "./Navbar.css";
-import logo from "../../../assets/images/png/logo.png";
+
+import logo from '../../../assets/images/png/logo.png';
+
 export default function Navbar() {
   return (
-    <div className="navbar-container">
+    <div className="navbar-container bg-white">
       <div className="navbar max-w-[1200px] mx-auto ">
         <div className="navbar-start mt-4">
           <div className="dropdown">
